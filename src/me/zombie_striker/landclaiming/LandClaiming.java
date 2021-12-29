@@ -95,8 +95,8 @@ public class LandClaiming extends JavaPlugin {
 				"&c You cannot claimed this land. There is already land claimed in this region.");
 		a(MAXCLAIM,
 				"&c You have claimed too many blocks! The max amount of blocks are %maxblocks%, and you currently have claimed &cblocks& blocks.");
-		a(MAXCLAIMINT + ".group.Default", 5000);
-		a(MAXCLAIMINT + ".group.Member", 10000);
+		a(MAXCLAIMINT + ".group.Default", 50000);
+		a(MAXCLAIMINT + ".group.Member", 100000);
 		a(MAXCLAIMINT + ".group.op", -1);
 		a(MAXCLAIMINT2, 500);
 		
